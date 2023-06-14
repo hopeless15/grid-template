@@ -36,9 +36,7 @@
   }
 
   &__actions {
-    display: flex;
-    justify-content: center;
-
+    @extend %btn-container;
     @include sm-min {
       margin-bottom: $gap-lg;
     }
